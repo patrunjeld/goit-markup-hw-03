@@ -46,10 +46,16 @@ ul {
     padding: 24px 215px 25px 215px;
 }
 
-.global-header .main-navigation {
+.global-header .main-navigation ul li a{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .main-navigation li {
+    display: inline-block;
+    padding: 32px
+    ;
   }
 
 .global-header .main-navigation a{
@@ -257,9 +263,4 @@ ul {
     
 }
 
-.container-header-container .main-navigation ul {
-    display: flex;
-    justify-content: space-between;
-    
-}
 
