@@ -53,6 +53,14 @@ ul {
     display: flex;
   }
 
+.container-header-container .global-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 .global-header .main-navigation a{
     color:var(--link-color);
     font-family: Roboto;
@@ -104,7 +112,9 @@ ul {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    margin: 70px 35px 70px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-tags ul {
@@ -252,10 +262,5 @@ ul {
     letter-spacing: 0.48px;
 }
 
-.container-header-container .global-header {
-    display: flex;
-    justify-content: space-between;
-    
-}
 
 
