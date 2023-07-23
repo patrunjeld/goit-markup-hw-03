@@ -46,8 +46,8 @@ ul {
     padding: 24px 215px 25px 215px;
 }
 
-.main-navigation li {
-    display: inline-block;
+.main-navigation ul {
+    display: flex;
   }
 
 .global-header .main-navigation a{
