@@ -44,6 +44,9 @@ ul {
     background-color: #fff;
     flex: 1 0 auto;
     padding: 24px 215px 25px 215px;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 .main-navigation ul {
