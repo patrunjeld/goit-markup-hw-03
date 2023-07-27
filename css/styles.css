@@ -232,9 +232,10 @@ ul {
 
 .global-header{
     background-color: #4#d0d0d;
-    padding: 24px 215px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -242,8 +243,15 @@ ul {
 
 .global-header .main-navigation ul{
     display: flex;
-    width: 600px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 385px 0 93px;
+    gap: 50px;
+}
+
+.contact-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .main-section .main-text{
